@@ -10,4 +10,4 @@ Sidan är tested i samtliga större webbläsare i alla vanliga upplösningar och
 
 **Telefon**
 
-![Telefon](https://i.imgur.com/uPVTcw1.png)
+![Telefon](https://i.imgur.com/HVjDe6y.png)
