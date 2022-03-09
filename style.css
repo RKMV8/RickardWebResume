@@ -362,6 +362,7 @@ ul li
     .headerpicture{
         order: 2;  
         margin-bottom: 20px;  
+        margin-right: 20px;
     }
 
     .headerdarkmode{
