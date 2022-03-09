@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://use.fontawesome.com/b72c583527.js"></script>
+    <title>Rickard Web Resume</title>
+</head>
+
+<body>
+    <header>
+        <div class="headertext">
+            <h1>Rickard Vikström</h1>
+            <p>Systemutvecklare</p>
+        </div>
+        <div class="headerpicture">
+            <a href="https://github.com/RickardVMiun"><img
+                    src="C:\DevProjects\personalwebsite\images\GitHub-Mark-120px-plus.png"></a>
+                    <a href="https://www.linkedin.com/in/rickard-vikström-25aa701b9/"><img src="C:\DevProjects\personalwebsite\images\linkedin-icon-1.svg"></a>
+        </div>
+        <div class="headerdarkmode">
+            <p>Lightmode</p>
+            <label class="switch">
+                <input id="check" type="checkbox" onclick="ToggleDarkMode()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+    </header>
+    <div class="maincontainer">
+        <div class="item1">
+            <h1>Vem är jag?</h1>
+            <div class="aboutme">
+                <div class="aboutmetext">
+                    <p>33-årig norrlänning med ett brinnande it-intresse och en ständig törst efter att lära mig nya
+                        saker. Min fritid spenderas tillsammans med familjen som består av mina barn och min sambo. Born
+                        and raised i Hammarstrand, men har haft små detours till bland annat Stockholm och Göteborg. Har
+                        sedan länge landat i Östersund och det känns denna gång permanent.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item2">
+            <h1>Kompetenser</h1>
+            <div class="item2container">
+                <div class="item2list">
+                    <ul>
+                        <li>C#</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="item2listsecond">
+                    <ul>
+                        <li>ASP.NET MVC</li>
+                        <li>Entity Framework</li>
+                        <li>PostgreSQL</li>
+                        <li>Windows & Linux/Unix</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="softskills">
+                <p>Jag har väldigt lätt för att lära mig nya saker, har en stor passion för allt som berör
+                    programmering. Trivs som bäst när jag får arbeta i grupp mot ett gemensamt mål men fungerar utmärkt
+                    när någonting behöver utföras självständigt då jag är väldigt driven och gärna ser till att mina
+                    åtaganden är slutförda.</p>
+            </div>
+        </div>
+        <div class="item3">
+            <h1>Erfarenhet</h1>
+            <div class="rightsidediv">
+                <div class="erfarenhet1">
+                    <p>Kaj63</p>
+                    <p>Utvecklare, timanställning</p>
+                    <p><i class="fa fa-calendar" aria-hidden="true"></i>Januari 2022 - nuvarande</p>
+                    <p class="erfarenhetparagraph">Utveckling av plugin till WordPress där kund behövde spara varje enskild
+                            order och konvertera informationen till EDI-format för att sedan ta emot
+                            filen i ett externt system i det önskade formatet.</p>
+                </div>
+            </div>
+            <div class="studier">
+                <h1><i class="fa fa-graduation-cap" aria-hidden="true"></i>Utbildning</h1>
+                <p>Mittuniversitetet</p>
+                <p>Informatik med inriktning systemutveckling</p>
+                <p>Augusti 2019 - nuvarande</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="projectbanner">
+        <h1>Projekt</h1>
+    </div>
+
+    <div class="projects">
+        <div class="project1">
+            <div class="project1title">
+                <h3><i class="fa fa-github" aria-hidden="true"></i>Projekt 1: Aimtracker Filter</h3>
+            </div>
+            <div class="project1image"><img src="https://i.imgur.com/zzHuQM0.png"></div>
+            <div class="project1description">
+                <p>Projektet gick ut på att vi skulle använda existerande skjutstatistik från skidskyttar och skapa
+                    förutsättningar för att kunna filtrera denna data baserat på olika parametrar. Detta innebar att en
+                    skytt kunde sortera på exempelvis endast antal skott när de legat inne i ett specifikt
+                    puls-intervall, eller hur träffsäkerheten ser ut när det är -21 grader utomhus. Arbetet hade stort
+                    fokus på att använda existerande API:er och kombinera dessa för att skapa optimala förutsättningar
+                    att göra sorteringen.</p>
+            </div>
+        </div>
+        <div class="project2">
+            <div class="project2title">
+                <h3><i class="fa fa-github" aria-hidden="true"></i>Projekt 2: CustomsAid</h3>
+            </div>
+            <div class="project2image"><img src="https://i.imgur.com/mnKCefV.png"></div>
+            <div class="project2description">
+                <p>Hobbyprojekt där användaren tillåts skapa och lagra försändelser i en databas, användaren har sedan
+                    tillåtelse att justera eller ta bort dessa försändelser. Projektet skapades i ASP.NET MVC och det
+                    finns även stöd för att hämta samtliga eller enskilda försändelser via API. </p>
+            </div>
+        </div>
+        <div class="project3">
+            <div class="project3title">
+                <h3><i class="fa fa-github" aria-hidden="true"></i>Projekt 3: Cineasterna</h3>
+            </div>
+            <div class="project3image"><img src="https://i.imgur.com/l1JVokY.png"></div>
+            <div class="project3description">
+                <p>Utvecklade en sida för filmentusiaster, målet var att populera sidan med toppfilmer baserat på
+                    aktuell data från cMDB (Cineasterna Movie Database) och OMDb (Open Movie Database) API, utmaningen
+                    var att få dessa API:er att fungera i samklang med varandra.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
