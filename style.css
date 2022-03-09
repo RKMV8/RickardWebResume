@@ -25,13 +25,12 @@ a, a:hover, a:focus, a:active {
 /* ----------- Header ----------- */
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "headertext" "headerpicture" "headerdarkmode";
+    display: flex;
+    flex-direction: row;
     text-align: center;
     background-color: #3c6e71;
     border-bottom-style: solid;
-    height: 10vh;
+    justify-content: space-between;
 }
 
 header p{
@@ -56,6 +55,8 @@ header h1{
 .headerdarkmode{
     grid-area: "headerdarkmode";
     order: 3;
+    flex-shrink: 3;
+    margin-right: 20px;
 }
 
 .headerpicture img{
@@ -349,9 +350,24 @@ ul li
     }
 
     header{
-        height: 30vh;
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-content: center;
     }
+
+    .headertext{
+        order: 1;
+
+    }
+    
+    .headerpicture{
+        order: 2;  
+        margin-bottom: 20px;  
+    }
+
+    .headerdarkmode{
+        display: none;
+    }
+    
   }
 
 
