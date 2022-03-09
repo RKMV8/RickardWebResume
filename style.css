@@ -156,6 +156,7 @@ header h1{
     grid-template-rows: 60px 1fr auto;
     text-align: center;
     border-top-style: solid;
+    background-color: #F1FAEE;
 }
 
 .project1 h1, .project2 h1, .project3 h1{
@@ -167,24 +168,8 @@ header h1{
     padding-bottom: 30px;
 }
 
-.project1image, .project1description{
-    background-color: #F1FAEE;
-}
-
-.project2image, .project2description{
-    background-color: #F1FAEE;
-}
-
 .project2description p, .project3description p{
     margin-bottom: 30px;
-}
-
-.project3image, .project3description{
-    background-color: #F1FAEE;
-}
-
-.project1title, .project2title, .project3title{
-    background-color:#F1FAEE;
 }
 
 .project2title{
