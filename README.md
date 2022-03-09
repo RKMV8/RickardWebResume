@@ -6,8 +6,8 @@ Sidan är tested i samtliga större webbläsare i alla vanliga upplösningar och
 
 **Desktop**
 
-![Desktop](https://i.imgur.com/ujdvO9g.png)
+![Desktop](https://i.imgur.com/HVjDe6y.png)
 
 **Telefon**
 
-![Telefon](https://i.imgur.com/uPVTcw1.png)
+![Telefon](https://i.imgur.com/6694dGj.png)
