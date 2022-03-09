@@ -29,7 +29,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "headertext" "headerpicture" "headerdarkmode";
     text-align: center;
-    background-color: #457B9D;
+    background-color: #3c6e71;
     border-bottom-style: solid;
     height: 10vh;
 }
@@ -144,7 +144,7 @@ header h1{
 }
 
 .projectbanner{
-    background-color: #457B9D;
+    background-color: #3c6e71;
     padding: 30px;
     border-top-style: solid;
     text-align: center;
@@ -327,13 +327,6 @@ ul li
 
     header h1{
         font-size:28px;
-    }
-
-    .infocard{
-        border-left-style: none;
-        border-right-style: none;
-        border-top-style: solid;
-        border-bottom-style: solid;
     }
 
     .item1{
