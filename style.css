@@ -1,20 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300;500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
   }
 
-h1, h2, p, li, h3{
-    font-family: 'Roboto', sans-serif;
+h1, p, h2, h3, li{
+    color: #383838;
+}
+
+h1, h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
+
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+hr{
+    width: 70%;
 }
 
 i{
     margin-right: 15px;
 }
 
-p{
+p, li{
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a, a:hover, a:focus, a:active {
@@ -29,7 +44,7 @@ header {
     flex-direction: row;
     text-align: center;
     background-color: #3c6e71;
-    border-bottom-style: solid;
+    border-bottom-style: groove;
     justify-content: space-between;
 }
 
@@ -88,8 +103,8 @@ header h1{
     flex-direction: column;
     align-items: center;
     width: 33.33%;
-    border-right-style: solid;
-    border-left-style: solid;
+    border-right-style: groove;
+    border-left-style: groove;
     background-color: #F1FAEE;
 }
 
@@ -117,6 +132,8 @@ header h1{
 
 .item2container{
     display: flex;
+    justify-content: center;
+    margin-left: 20px;
 }
 
 .item2container ul{
@@ -147,7 +164,7 @@ header h1{
 .projectbanner{
     background-color: #3c6e71;
     padding: 30px;
-    border-top-style: solid;
+    border-top-style: groove;
     text-align: center;
 }
 
@@ -161,7 +178,7 @@ header h1{
     grid-template-columns: 1fr;
     grid-template-rows: 60px 1fr auto;
     text-align: center;
-    border-top-style: solid;
+    border-top-style: groove;
     background-color: #F1FAEE;
 }
 
@@ -179,8 +196,8 @@ header h1{
 }
 
 .project2title{
-    border-right-style: solid;
-    border-left-style: solid;
+    border-right-style: groove;
+    border-left-style: groove;
 }
 
 .project1title h3, .project2title h3, .project3title h3{
@@ -188,8 +205,8 @@ header h1{
 }
 
 .project2image, .project2description{
-    border-right-style: solid;
-    border-left-style: solid;
+    border-right-style: groove;
+    border-left-style: groove;
 }
 
 .project1image img, .project2image img, .project3image img{
@@ -199,7 +216,7 @@ header h1{
     object-fit: cover;
     margin-top: 5px;
     border-radius: 15px; 
-    border-style: solid;
+    border-style: groove;
 }
 
 ul{
@@ -216,7 +233,7 @@ ul li
     width: 80%;
     height: auto;
     border-radius: 15px; 
-    border-style: solid;
+    border-style: groove;
 }
 
 .item1 h1, .item2 h1{
@@ -300,9 +317,11 @@ ul li
   }
   
   input:checked + .slider:before {
+
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+    
   }
   
   .slider.round {
@@ -331,13 +350,13 @@ ul li
     }
 
     .item1{
-        border-bottom-style: solid;
+        border-bottom-style: groove;
     }
 
     .item2{
         border-right-style: none;
         border-left-style: none;
-        border-bottom-style: solid;
+        border-bottom-style: groove;
     }
 
     .project2image, .project2description{

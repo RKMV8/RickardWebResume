@@ -18,12 +18,13 @@ if (toggle.checked == true){
        document.querySelectorAll('.project1, .project2, .project3, .item1, .item2, .item3, header, .projectbanner, .project2title, .project2image, .project2description, .project1image img, .project2image img, .project3image img, #bild').forEach(element => {
         element.style.borderColor = 'grey'
        });
+       document.getElementById('lightbuttontext').innerHTML = "Darkmode"
 
 
        
 }
 else{
-
+    document.getElementById('lightbuttontext').innerHTML = "Lightmode"
     document.querySelectorAll('.project1, .project2, .project3, .item1, .item2, .item3').forEach(element => {
         element.style.backgroundColor = '#F1FAEE'
        });
