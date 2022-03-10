@@ -5,6 +5,16 @@
     padding: 0;
   }
 
+  body{
+      background: url(https://papers.co/wallpaper/papers.co-si87-light-green-blue-sky-gradation-blur-35-3840x2160-4k-wallpaper.jpg);
+
+  }
+
+  .wrapper{
+    transform: scale(0.9);
+    box-shadow: rgb(0 0 0 / 98%) 0px 12px 13px;
+  }
+
 h1, p, h2, h3, li{
     color: #383838;
 }
@@ -43,19 +53,20 @@ header {
     display: flex;
     flex-direction: row;
     text-align: center;
-    background-color: #3c6e71;
+    background-color: #cfe1b9;
     border-bottom-style: groove;
     justify-content: space-between;
 }
 
 header p{
     margin-bottom: 7px;
-    color: #fffafa;
+    color: #383838;
 }
 
 header h1{
         padding: 5px 0px 15px 0px;
-        color: #fffafa;
+        color: #383838;
+        font-weight: 200;
 }
 
 .rightsidediv{
@@ -90,12 +101,15 @@ header h1{
     align-content: center;
 }
 
+.item1, .item2, .item3, .project1, .project2, .project3{
+    background-color: #e9f5db;
+}
+
 .item1{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 33.33%;
-    background-color: #F1FAEE;
 }
 
 .item2{
@@ -105,7 +119,6 @@ header h1{
     width: 33.33%;
     border-right-style: groove;
     border-left-style: groove;
-    background-color: #F1FAEE;
 }
 
 .item3{
@@ -114,7 +127,6 @@ header h1{
     align-items: center;
     text-align: left;
     width: 33.33%;
-    background-color: #F1FAEE;
 }
 .erfarenhet1{
     text-align: center;
@@ -162,14 +174,14 @@ header h1{
 }
 
 .projectbanner{
-    background-color: #3c6e71;
+    background-color: #cfe1b9;
     padding: 30px;
     border-top-style: groove;
     text-align: center;
 }
 
 .projectbanner h1{
-    color: #fffafa;
+    color: #383838;
 }
 
 .project1, .project2, .project3{
@@ -179,7 +191,6 @@ header h1{
     grid-template-rows: 60px 1fr auto;
     text-align: center;
     border-top-style: groove;
-    background-color: #F1FAEE;
 }
 
 .project1 h1, .project2 h1, .project3 h1{
@@ -387,6 +398,11 @@ ul li
     .headerdarkmode{
         display: none;
     }
+
+    .wrapper{
+        transform: scale(1);
+        box-shadow: none;
+      }
     
   }
 
