@@ -26,7 +26,8 @@ if (toggle.checked == true){
     
     document.querySelector('#linkedinimg').src="./images/linkedinlight.svg";
     document.querySelector('#githubimg').src="./images/githublight.svg"
-    console.log('test');
+    var body = document.getElementsByTagName('body')[0];
+    body.style.backgroundImage = 'url(https://www.itl.cat/pngfile/big/5-51596_hd-16-dark-desktop-wallpaper-4k.jpg)';
 }
 else{
     document.querySelectorAll('.project1, .project2, .project3, .item1, .item2, .item3').forEach(element => {
@@ -43,6 +44,9 @@ else{
 
     document.querySelector('#linkedinimg').src="./images/linkedindark.svg";
     document.querySelector('#githubimg').src="./images/githubdark.svg"
+
+    var body = document.getElementsByTagName('body')[0];
+    body.style.backgroundImage = 'url(https://papers.co/wallpaper/papers.co-si87-light-green-blue-sky-gradation-blur-35-3840x2160-4k-wallpaper.jpg)';
 
        
 }
