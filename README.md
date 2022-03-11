@@ -12,6 +12,10 @@ Sidan är tested i samtliga större webbläsare i alla vanliga upplösningar och
 
 ![Desktop](https://i.imgur.com/u76AVSn.png)
 
-**Telefon**
+**Telefon Light theme**
 
-![Telefon](https://i.imgur.com/6694dGj.png)
+![Telefon](https://i.imgur.com/RJDSLSE.png)
+
+**Telefon Dark theme**
+
+![Telefon](https://i.imgur.com/eWrpLDo.png)
