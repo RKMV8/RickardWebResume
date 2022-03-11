@@ -22,13 +22,7 @@
     
   }
 
-  .headertext h1{
-    font-size: 35px;
-  }
-
-  .headertext p{
-      font-size: 19px;
-  }
+ 
 
 h1, p, h2, h3, li{
     color: #383838;
@@ -75,7 +69,7 @@ header {
 }
 
 header p{
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     color: #383838;
 }
 
@@ -84,6 +78,15 @@ header h1{
         color: #383838;
         font-weight: 200;
 }
+
+.headertext h1{
+    font-size: 35px;
+    margin-top: 8px;
+  }
+
+  .headertext p{
+      font-size: 19px;
+  }
 
 .rightsidediv{
     margin-bottom: 20px;
@@ -270,7 +273,6 @@ ul li
     text-align: center;
 }
 
-
 .aboutmetext{
     display: flex;
     flex-direction: column;
@@ -341,11 +343,9 @@ ul li
   }
   
   input:checked + .slider:before {
-
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-    
   }
   
   .slider.round {
@@ -393,7 +393,6 @@ ul li
     }
 
     header{
-        
         align-content: center;
         flex-wrap: wrap;
     }
@@ -405,8 +404,6 @@ ul li
     
     .headerpicture{
         order: 2;  
-  
-       
     }
 
     .headerdarkmode{
