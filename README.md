@@ -4,9 +4,13 @@ Tanken var att skapa ett CV med retro-känsla som var användbart såväl via we
 
 Sidan är tested i samtliga större webbläsare i alla vanliga upplösningar och får anses vara helt responsiv.
 
-**Desktop**
+**Desktop Light theme**
 
-![Desktop](https://i.imgur.com/HVjDe6y.png)
+![Desktop](https://i.imgur.com/gD8HSP4.png)
+
+**Desktop Dark theme**
+
+![Desktop](https://i.imgur.com/u76AVSn.png)
 
 **Telefon**
 
