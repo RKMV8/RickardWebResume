@@ -69,7 +69,7 @@ header {
     display: flex;
     flex-direction: row;
     text-align: center;
-    background-color: #cfe1b9;
+    background-color: #BBC0C4;
     border-bottom-style: groove;
     justify-content: space-between;
 }
@@ -91,11 +91,9 @@ header h1{
 
 .headertext{
     order: 2;
-    grid-area: "headertext";
 }
 
 .headerdarkmode{
-    grid-area: "headerdarkmode";
     order: 3;
     flex-shrink: 3;
     margin-right: 20px;
@@ -103,7 +101,6 @@ header h1{
 
 .headerpicture img{
     max-height: 35px;
-    grid-area: "headerpicture";
     width: auto;
     margin-top: 25px;
     order: 1;
@@ -118,7 +115,7 @@ header h1{
 }
 
 .item1, .item2, .item3, .project1, .project2, .project3{
-    background-color: #e9f5db;
+    background-color: #C9CBCC;
 }
 
 .item1{
@@ -190,7 +187,7 @@ header h1{
 }
 
 .projectbanner{
-    background-color: #cfe1b9;
+    background-color: #BBC0C4;
     padding: 30px;
     border-top-style: groove;
     text-align: center;
@@ -336,11 +333,11 @@ ul li
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #C9CBCC;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #C9CBCC;
   }
   
   input:checked + .slider:before {
@@ -396,23 +393,25 @@ ul li
     }
 
     header{
-        flex-direction: column;
+        
         align-content: center;
+        flex-wrap: wrap;
     }
 
     .headertext{
         order: 1;
-
+        width: 100%;
     }
     
     .headerpicture{
         order: 2;  
-        margin-bottom: 20px;  
-        margin-right: 20px;
+  
+       
     }
 
     .headerdarkmode{
-        display: none;
+        order: 2;
+        padding-bottom: 20px;
     }
 
     .wrapper{
