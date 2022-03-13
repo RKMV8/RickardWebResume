@@ -45,7 +45,7 @@ else{
        });
 
        document.querySelectorAll('header, .projectbanner, .stackused').forEach(element => {
-        element.style.backgroundColor = '#BBC0C4'
+        element.style.backgroundColor = '#A6ACAF'
     })
 
     document.querySelector('#linkedinimg').src="./images/linkedindark.svg";
@@ -55,6 +55,19 @@ else{
     body.style.background = '#485563';
     body.style.background = '-webkit-linear-gradient(to right, #29323c, #485563)';
     body.style.background = 'linear-gradient(to right, #29323c, #485563)';
+
+    document.querySelectorAll('header').forEach(element => {
+        element.style.borderBottom = 'groove';
+    })
+
+    document.querySelectorAll('.projectbanner, .project1, .project2, .project3').forEach(element => {
+        element.style.borderTop = 'groove';
+    })
+
+    document.querySelectorAll('.item2, .project2').forEach(element => {
+        element.style.borderRight = 'groove',
+        element.style.borderLeft = 'groove';
+    })
 }
 }
 

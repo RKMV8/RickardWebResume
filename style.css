@@ -63,7 +63,7 @@ header {
     display: flex;
     flex-direction: row;
     text-align: center;
-    background-color: #BBC0C4;
+    background-color: #A6ACAF;
     border-bottom-style: groove;
     justify-content: space-between;
 }
@@ -190,7 +190,7 @@ header h1{
 }
 
 .projectbanner{
-    background-color: #BBC0C4;
+    background-color: #A6ACAF;
     padding: 30px;
     border-top-style: groove;
     text-align: center;
@@ -233,16 +233,15 @@ header h1{
 }
 
 .stackused{
-    background-color: #BEBEBE;
+    background-color: #A6ACAF;
    
     margin-left: 30px;
     margin-right: 30px;
-    border-radius: 15px; 
+    border-radius: 10px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: solid;
-    border-width: thin;
+    
     
 }
 
