@@ -6,16 +6,16 @@ Sidan är tested i samtliga större webbläsare i alla vanliga upplösningar och
 
 **Desktop Light theme**
 
-![Desktop](https://i.imgur.com/gD8HSP4.png)
+![Desktop](https://i.imgur.com/l2Xhwcg.png)
 
 **Desktop Dark theme**
 
-![Desktop](https://i.imgur.com/u76AVSn.png)
+![Desktop](https://i.imgur.com/IgT4fN1.png)
 
 **Telefon Light theme**
 
-![Telefon](https://i.imgur.com/RJDSLSE.png)
+![Telefon](https://i.imgur.com/1AX3FSl.png)
 
 **Telefon Dark theme**
 
-![Telefon](https://i.imgur.com/eWrpLDo.png)
+![Telefon](https://i.imgur.com/1lFN1Zd.png)
