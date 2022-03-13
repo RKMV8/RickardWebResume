@@ -20,8 +20,8 @@ if (toggle.checked == true){
     })
 
     document.querySelectorAll('.project1, .project2, .project3, .item1, .item2, .item3, header, .projectbanner, .project2title, .project2image, .project2description, .project1image img, .project2image img, .project3image img, #bild').forEach(element => {
-    element.style.borderColor = 'grey'
-    }); 
+        element.style.borderColor = 'grey'
+        }); 
     
     document.querySelector('#lightbuttontext').innerHTML = "Dark";
 
@@ -37,6 +37,10 @@ else{
     document.querySelectorAll('.project1, .project2, .project3, .item1, .item2, .item3').forEach(element => {
         element.style.backgroundColor = '#C9CBCC'
        });
+
+       document.querySelectorAll('.project1, .project2, .project3, .item1, .item2, .item3, header, .projectbanner, .project2title, .project2image, .project2description, .project1image img, .project2image img, .project3image img, #bild').forEach(element => {
+        element.style.borderColor = 'none'
+        }); 
 
        document.querySelector('#lightbuttontext').innerHTML = "Light";
 
@@ -64,10 +68,27 @@ else{
         element.style.borderTop = 'groove';
     })
 
-    document.querySelectorAll('.item2, .project2').forEach(element => {
-        element.style.borderRight = 'groove',
-        element.style.borderLeft = 'groove';
-    })
+    console.log(screen.width);
+
+
+
+    if (screen.width < 800){
+        document.querySelectorAll('.project2, .item2').forEach(element => {
+        element.style.borderRight = 'none',
+        element.style.borderLeft = 'none';
+
+        document.querySelector('.item1').style.borderBottom = 'groove';
+        document.querySelector('.item2').style.borderBottom = 'groove';
+        })
+    }
+    else {
+        document.querySelectorAll('.item2, .project2').forEach(element => {
+            element.style.borderRight = 'groove',
+            element.style.borderLeft = 'groove';
+        })
+    }
+    
+    
 }
 }
 
