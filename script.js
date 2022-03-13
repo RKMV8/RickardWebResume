@@ -7,7 +7,7 @@ if (toggle.checked == true){
     element.style.backgroundColor = '#343A40'
     });
 
-    document.querySelectorAll('header, .projectbanner').forEach(element => {
+    document.querySelectorAll('header, .projectbanner, .stackused').forEach(element => {
         element.style.backgroundColor = '#212529'
     })
 
@@ -44,7 +44,7 @@ else{
         element.style.color = 'black'
        });
 
-       document.querySelectorAll('header, .projectbanner').forEach(element => {
+       document.querySelectorAll('header, .projectbanner, .stackused').forEach(element => {
         element.style.backgroundColor = '#BBC0C4'
     })
 

@@ -204,9 +204,14 @@ header h1{
     width: 33.33%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 1fr auto;
+    grid-template-rows: 60px 320px 30px auto;
     text-align: center;
     border-top-style: groove;
+}
+
+.project2{
+    border-right-style: groove;
+    border-left-style: groove;
 }
 
 .project1 h1, .project2 h1, .project3 h1{
@@ -214,26 +219,37 @@ header h1{
 }
 
 .project1 p, .project2 p, .project3 p{
-    padding: 25px;
-    padding-bottom: 30px;
+    padding: 0px 0px 15px 0px;
 }
 
-.project2description p, .project3description p{
-    margin-bottom: 30px;
-}
-
-.project2title{
-    border-right-style: groove;
-    border-left-style: groove;
+.project2description p, .project3description p, .project1description p{
+    margin-top: 25px;
+    padding: 0px 15px 15px 15px;
+    
 }
 
 .project1title h3, .project2title h3, .project3title h3{
     margin-top: 18px;
 }
 
-.project2image, .project2description{
-    border-right-style: groove;
-    border-left-style: groove;
+.stackused{
+    background-color: #BEBEBE;
+   
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: thin;
+    
+}
+
+
+.stackused p{ 
+    color: #485563;
+    margin-top: 13px;
 }
 
 .project1image img, .project2image img, .project3image img{
@@ -244,6 +260,7 @@ header h1{
     margin-top: 5px;
     border-radius: 15px; 
     border-style: groove;
+    margin-bottom: 20px;
 }
 
 ul{
@@ -360,6 +377,20 @@ ul li
 
 /* ----------- Queries ----------- */
 
+@media screen and (max-width: 1050px){
+    .project1title h3, .project2title h3, .project3title h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1334px){
+    
+
+    .project1, .project2, .project3{
+        grid-template-rows: 60px 320px 53px auto;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .maincontainer, .projects {
       flex-direction: column;
@@ -392,6 +423,15 @@ ul li
         border-left-style: none;
     }
 
+    .project1, .project2, .project3{
+        grid-template-rows: 60px 320px 30px auto;
+    }
+
+    .project2{
+        border-right-style: none;
+        border-left-style: none;
+    }
+
     header{
         align-content: center;
         flex-wrap: wrap;
@@ -415,6 +455,10 @@ ul li
         transform: scale(1);
         box-shadow: none;
       }
+
+    .stackused p{ 
+        font-size: 13px;
+    }
     
   }
 
