@@ -66,6 +66,7 @@ header {
     background-color: #A6ACAF;
     border-bottom-style: groove;
     justify-content: space-between;
+    border-color: coral
 }
 
 header p{
@@ -449,6 +450,8 @@ ul li
         order: 2;
         padding-bottom: 20px;
     }
+
+    
 
     .wrapper{
         transform: scale(1);
