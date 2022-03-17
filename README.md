@@ -4,6 +4,8 @@ Tanken var att skapa ett CV med retro-känsla som var användbart såväl via we
 
 Sidan är tested i samtliga större webbläsare i alla vanliga upplösningar och får anses vara helt responsiv.
 
+Demo: https://rkmv8.github.io/RickardWebResume/
+
 **Desktop Light theme**
 
 ![Desktop](https://i.imgur.com/l2Xhwcg.png)
